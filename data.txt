@@ -1,0 +1,25 @@
+1. The Shawshank Redemption
+1994
+2h 22m
+R
+9.3
+
+^:
+
+Matches the start of the line.
+
+\d+:
+
+Matches one or more digits (e.g., 1, 2, 10).
+
+\.:
+
+Matches the literal dot (.) after the number.
+
+\s+:
+
+Matches one or more whitespace characters (e.g., space).
+
+(.*):
+
+Captures the rest of the line as the title.
